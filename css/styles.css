@@ -1,4 +1,3 @@
-
 header {
 	background-image: url("../images/space.jpg");
 	background-position: center;
@@ -55,4 +54,21 @@ header p {
 	background-image: url("../images/background.jpg");
 	background-size: cover;
 	background-position: center;
+}
+
+footer p {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#about-me.jumbotron{
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 2px 6px blue;
+	margin: 5px;
+	align-items: center;
+	background-image: url("../images/me.jpeg");
+	background-size: contain;
 }
