@@ -5,7 +5,10 @@ header {
 	background-size: cover;
 	color: cyan;
 	text-shadow: 1px 1px 5px darkcyan;
-	padding: 20px; 
+}
+
+header h1 {
+	font-size: 35px;
 }
 
 header nav {
@@ -19,7 +22,7 @@ header p {
 	margin: 0;
 }
 
-#about.jumbotron {
+#about-stitch.jumbotron{
 	max-height: 500px;
 	display: flex;
 	align-items: center;
@@ -28,10 +31,28 @@ header p {
 	background-position: center;
 }
 
-#about.jumbotron h1 {
-	font-size: 80px;
+#about-stitch h1, #our-stitches h1, #stitch-media h1 {
+	font-size: 100px;
 	text-align: center;
 	color: white;
 	text-shadow: 3px 2px 6px blue;
 	margin: 5px;
+}
+
+#our-stitches.jumbotron {
+	max-height: 500px;
+	display: flex;
+	align-items: center;
+	background-image: url("../images/stitchnino_stitchina_low.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+#stitch-media.jumbotron {
+	max-height: 500px;
+	display: flex;
+	align-items: center;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-position: center;
 }
