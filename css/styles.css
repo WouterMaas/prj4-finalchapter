@@ -1,8 +1,25 @@
+
 header {
-	padding: 20px;
+	background-image: url("../images/space.jpg");
+	background-position: center;
+	background-size: cover;
+	color: cyan;
+	text-shadow: 1px 1px 5px darkcyan;
+	padding: 20px; 
 }
 
-.jumbotron {
+header nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+header p {
+	padding: 0 20px;
+	margin: 0;
+}
+
+#about.jumbotron {
 	max-height: 500px;
 	display: flex;
 	align-items: center;
@@ -11,7 +28,8 @@ header {
 	background-position: center;
 }
 
-.jumbotron h1 {
+#about.jumbotron h1 {
+	font-size: 80px;
 	text-align: center;
 	color: white;
 	text-shadow: 3px 2px 6px blue;
