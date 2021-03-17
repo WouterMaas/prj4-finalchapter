@@ -1,11 +1,14 @@
+header {
+	padding: 20px;
+}
+
 .jumbotron {
+	max-height: 500px;
 	display: flex;
 	align-items: center;
 	background-image: url("../images/ministitch_stitchino_close.jpeg");
 	background-size: cover;
 	background-position: center;
-	max-height: 600px;
-
 }
 
 .jumbotron h1 {
